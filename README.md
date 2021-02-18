@@ -3,7 +3,7 @@
 In this project students will send HTTP requests in Postman and then in Xcode Playgrounds.
 In the finished playground, they will perform a fetch for a Person and then a series of fetches for each Film in which the person appears.
 
-Before we being, one disclaimer: These instructions are designed to work with the Star Wars API, based on how the API documentation is laid out at the time we last edited these instructions. Unfortunately, if SWAPI were to change how their API works, our instructions may no longer be correct. If you notice that any of these instructions no longer line up with how the API works, please notify an instructor so we can get an update put in.
+Before we begin, one disclaimer: These instructions are designed to work with the Star Wars API, based on how the API documentation is laid out at the time we last edited these instructions. Unfortunately, if SWAPI were to change how their API works, our instructions may no longer be correct. If you notice that any of these instructions no longer line up with how the API works, please notify an instructor so we can get an update put in.
 
 ## Part Zero - Familiarity with the Documentation
 
@@ -121,7 +121,7 @@ static func fetchFilm(url: URL, completion: @escaping (Film?) -> Void) {
 }
 ```
 
-*This function takes in a completed URL, so you wont need to do any additional preparation on it.*
+*This function takes in a completed URL, so you won't need to do any additional preparation on it.*
 
 * Call `URLSession.shared.dataTask(with:completion:)`. Pass in the url, expand it and give the same argument names as before.
 
